@@ -5,7 +5,7 @@ import facebook from '/facebook.png'
 import github from '/github.png'
 import instagram from '/instagram.png'
 import linkedin from '/linkedin.png'
-import Adam from '/Adam.pdf'
+import Suhaib from '/Suhaib.pdf'
 
 const Body = () => {
   return (
@@ -51,7 +51,7 @@ const Body = () => {
                 <img src={instagram} alt="instagram" className="w-11 h-11"/>
               </a>
           </div>
-          <a href={Adam} download>
+          <a href={Suhaib} download>
             <button className="inline-flex text-white border-2 px-6 focus:outline-none hover:bg-[#801b9c]
             hover:shadow-[0_0_40px_rgba(128,0,128,0.7)] rounded-full text-lg">
               Download CV

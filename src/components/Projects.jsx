@@ -11,7 +11,7 @@ const ProjectCard =({image,title,description,link})=>{
             <div className='relative z-10'>
             <figure className='relative'>
                 <img src={image} alt={title} className='w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110' />
-                <a href={link} target='_blank' rel='noopener noreferrer' 
+                <a href={link} target='_blank'  
                 className='absolute h-[200px] inset-0 flex items-center justify-center bg-purple-800 bg-opacity-50 opacity-0
                 group-hover:opacity-100 transition-opacity duration-300'>
                     <button className='bg-white font-medium text-black px-4 py-2 rounded-3xl shadow hover:text-white hover:bg-[#2879d5]'>
@@ -36,32 +36,38 @@ const Projects = () => {
         {
             image: project1,
             title: 'Project 1', 
-            description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, amet!'
+            description: 'An fully responsive Online Cars Selling App Build on React using Tailwind Css',
+            link: 'https://sale-wheels.vercel.app/',
         },
         {
             image: project2,
             title: 'Project 2', 
-            description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, amet!'
+            description: 'An fully responsive Online Perfume Selling  App Build on React using Tailwind Css',
+            link: 'https://perfume-website-xi.vercel.app/',
         },
         {
             image: project3,
             title: 'Project 3', 
-            description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, amet!'
+            description: 'An fully responsive Online Medical Service  App Build on React using Tailwind Css',
+            link: 'https://medical-cure.vercel.app/',
         },
         {
             image: project1,
-            title: 'Project 1', 
-            description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, amet!'
+            title: 'Project 4', 
+            description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, amet!',
+            link: 'https://sale-wheels.vercel.app/',
         },
         {
             image: project2,
-            title: 'Project 2', 
-            description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, amet!'
+            title: 'Project 5', 
+            description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, amet!',
+            link: 'https://sale-wheels.vercel.app/',
         },
         {
             image: project3,
-            title: 'Project 3', 
-            description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, amet!'
+            title: 'Project 6', 
+            description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, amet!',
+            link: 'https://sale-wheels.vercel.app/',
         }
     ]
   return (
