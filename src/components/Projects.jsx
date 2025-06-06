@@ -4,6 +4,7 @@ import project2 from '/project2.png'
 import project3 from '/project3.png'
 import project4 from '/project4.PNG'
 import project5 from '/project5.PNG'
+import project6 from '/project6.PNG'
 
 const ProjectCard =({image,title,description,link})=>{
     return(
@@ -37,38 +38,38 @@ const Projects = () => {
     const ListProjects = [
         {
             image: project1,
-            title: 'Project 1', 
+            title: 'Car Selling Website', 
             description: 'An fully responsive Online Cars Selling App Build on React using Tailwind Css',
             link: 'https://sale-wheels.vercel.app/',
         },
         {
             image: project2,
-            title: 'Project 2', 
+            title: 'Perfume Selling Website', 
             description: 'An fully responsive Online Perfume Selling  App Build on React using Tailwind Css',
             link: 'https://perfume-website-xi.vercel.app/',
         },
         {
             image: project3,
-            title: 'Project 3', 
+            title: 'Medical Service Website', 
             description: 'An fully responsive Online Medical Service  App Build on React using Tailwind Css',
             link: 'https://medical-cure.vercel.app/',
         },
         {
             image: project4,
-            title: 'Project 4', 
+            title: 'Hangman Game', 
             description: 'An fully responsive Hangman Game Build on React using Tailwind Css',
             link: 'https://hangman-game-one-flax.vercel.app/',
         },
         {
             image: project5,
-            title: 'Project 5', 
+            title: 'Text Maker', 
             description: 'An fully responsive Text Maker Build on React using Tailwind Css with dark mode',
             link: 'https://text-maker-react.vercel.app',
         },
         {
-            image: project3,
-            title: 'Project 6', 
-            description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, amet!',
+            image: project6,
+            title: 'To Do App', 
+            description: 'An fully responsive To Do App Build on React using Tailwind Css ',
             link: 'https://to-do-app-reacts.vercel.app',
         }
     ]
