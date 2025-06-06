@@ -2,6 +2,8 @@ import React from 'react'
 import project1 from '/project1.png'
 import project2 from '/project2.png'
 import project3 from '/project3.png'
+import project4 from '/project4.PNG'
+import project5 from '/project5.PNG'
 
 const ProjectCard =({image,title,description,link})=>{
     return(
@@ -52,22 +54,22 @@ const Projects = () => {
             link: 'https://medical-cure.vercel.app/',
         },
         {
-            image: project1,
+            image: project4,
             title: 'Project 4', 
-            description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, amet!',
-            link: 'https://sale-wheels.vercel.app/',
+            description: 'An fully responsive Hangman Game Build on React using Tailwind Css',
+            link: 'https://hangman-game-one-flax.vercel.app/',
         },
         {
-            image: project2,
+            image: project5,
             title: 'Project 5', 
-            description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, amet!',
-            link: 'https://sale-wheels.vercel.app/',
+            description: 'An fully responsive Text Maker Build on React using Tailwind Css with dark mode',
+            link: 'https://text-maker-react.vercel.app',
         },
         {
             image: project3,
             title: 'Project 6', 
             description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, amet!',
-            link: 'https://sale-wheels.vercel.app/',
+            link: 'https://to-do-app-reacts.vercel.app',
         }
     ]
   return (
