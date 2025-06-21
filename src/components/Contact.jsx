@@ -10,7 +10,7 @@ const Contact = () => {
                 sm:w-[#400px] h-[300px] sm:h-[400px] rounded-full bg-gradient-to-r from-[#6d2897] via-[#8e6cf5] 
                 to-[#bb61c5] shadow-[0_0_70px_rgba(182,0,182,0.7)]'></div>
                 <img src={imghero} alt="Contact picture"
-                className='h-[300px]  sm:h-[400px] md:h-[485px] w-[300px] sm:w-[480px] object-cover rounded-t-lg md:rounded-r-lg relative left-6 sm:left-0' />
+                className='h-[320px]  sm:h-[400px] md:h-[485px] w-[300px] sm:w-[480px] object-cover rounded-t-lg md:rounded-r-lg relative left-12 sm:left-4' />
             </aside>
             {/* Contact Form */}
             <section className='p-8 w-full md:w-1/2'>
