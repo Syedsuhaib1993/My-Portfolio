@@ -56,15 +56,15 @@ const Projects = () => {
         },
         {
             image: project4,
-            title: 'Hangman Game', 
-            description: 'An fully responsive Hangman Game Build on React using Tailwind Css',
-            link: 'https://hangman-game-one-flax.vercel.app/',
+            title: 'My AI-Buddy', 
+            description: 'An fully responsive Ai app like Chatgpt Build on React using Tailwind Css',
+            link: 'https://my-ai-buddy-kappa.vercel.app/',
         },
         {
             image: project5,
-            title: 'Text Maker', 
-            description: 'An fully responsive Text Maker Build on React using Tailwind Css with dark mode',
-            link: 'https://text-maker-react.vercel.app',
+            title: 'Big Burger', 
+            description: 'An fully responsive Online Burger selling site Build on React using Tailwind Css with dark mode',
+            link: 'https://big-burger-gq3inlswv-syedsuhaib1993s-projects.vercel.app/',
         },
         {
             image: project6,
