@@ -6,6 +6,8 @@ import github from '/github.png'
 import instagram from '/instagram.png'
 import linkedin from '/linkedin.png'
 import Suhaib from '/Suhaib.pdf'
+import AnimatedText from "./AnimatedText";
+import Typewriter from "./Typewriter";
 
 const Body = () => {
   return (
@@ -30,13 +32,14 @@ const Body = () => {
               Syed Suhaib
             </h1>
             <h2 className="text-xl sm:text-4xl md:text-2xl font-bold text-[#3e0f4a] md:text-[#c744ec] mb-2">
-              Frontend Developer
+              <AnimatedText/>
             </h2>
+            
           </header>
           <p className="text-base sm:text-lg md:text-lg text-gray-200 mb-6">
-            I am effective frontend developer with a strong eye for design
-             with technical expertise to deliver seamless user experiences across the web.
+             <Typewriter  />
           </p>
+         
           <div className="flex items-center space-x-4 mb-6">
               <a href="https://chatgpt.com/c/6836b806-bc6c-8009-91b3-833559d98ed1">
                 <img src={linkedin} alt="linkedin" className="w-11 h-11"/>
