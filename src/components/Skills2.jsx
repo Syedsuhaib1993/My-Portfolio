@@ -7,10 +7,10 @@ import nodejs from '/nodejs.jpg'
 import java from '/java.png'
 
 const skillsData2 =[
-    {id:1,image:express,title:"ExpressJS",description:'Skilled in using Express.js to develop lightweight and maintainable web applications and APIs. I implement middleware, routing, and request/response handling to structure robust server-side architectures.'},
-    {id:2,image:mongoodb,title:"MongooDB",description:'Hands-on experience with MongoDB, including schema design, CRUD operations, indexing, and aggregation pipelines. I use Mongoose for ODM to interact with MongoDB efficiently.'},
-    {id:3,image:nodejs,title:"NodeJS",description:'Experienced in building fast and scalable backend services using Node.js. I create RESTful APIs, handle real-time data processing, and manage server-side logic with efficiency.'},
-    {id:4,image:java,title:"JavaScript",description:'Proficient in modern JavaScript (ES6+), with a strong understanding of asynchronous programming, closures, callbacks, promises, and event-driven architecture.'}
+    {id:1,image:express,title:"ExpressJS",description:'Skilled in using Express.js to develop lightweight and maintainable web applications and APIs. I implement middleware, routing, etc server-side architectures.'},
+    {id:2,image:mongoodb,title:"MongooDB",description:'Hands-on experience with MongoDB, including schema design, CRUD operations, indexing, and aggregation pipelines.'},
+    {id:3,image:nodejs,title:"NodeJS",description:'Experienced in building fast and scalable backend services using Node.js. I create RESTful APIs, handle real-time etc with efficiency.'},
+    {id:4,image:java,title:"JavaScript",description:'Proficient in modern JavaScript (ES6+), with a strong understanding of asynchronous programming etc.'}
 ]
 
 const SkillBox = ({image,title,description}) =>(

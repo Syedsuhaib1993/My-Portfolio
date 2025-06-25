@@ -6,10 +6,10 @@ import mongoodb from '/mongoodb.png'
 import nodejs from '/nodejs.jpg'
 
 const skillsData =[
-    {id:1,image:express,title:"ExpressJS",description:' Skilled in using Express.js to develop lightweight and maintainable web applications and APIs. I implement middleware, routing, and request/response handling to structure robust server-side architectures.'},
-    {id:2,image:mongoodb,title:"MongooDB",description:'Hands-on experience with MongoDB, including schema design, CRUD operations, indexing, and aggregation pipelines. I use Mongoose for ODM to interact with MongoDB efficiently in Node.js applications.'},
-    {id:3,image:icon_react,title:"React",description:' Proficient in React.js, building dynamic, responsive, and component-based user interfaces. I work with hooks, props, state management, and lifecycle methods to create reusable and maintainable frontend components. '},
-    {id:4,image:nodejs,title:"NodeJS",description:'Experienced in building fast and scalable backend services using Node.js. I create RESTful APIs, handle real-time data processing, and manage server-side logic with efficiency and performance in mind.'}
+    {id:1,image:express,title:"ExpressJS",description:' Skilled in using Express.js to develop lightweight and maintainable web applications and APIs. I implement middleware, routing, etc server-side architectures.'},
+    {id:2,image:mongoodb,title:"MongooDB",description:'Hands-on experience with MongoDB, including schema design, CRUD operations, indexing, and aggregation pipelines'},
+    {id:3,image:icon_react,title:"React",description:' Hands-on experience with MongoDB, including schema design, CRUD operations, indexing, and aggregation pipelines '},
+    {id:4,image:nodejs,title:"NodeJS",description:'Hands-on experience with MongoDB, including schema design, CRUD operations, indexing, and aggregation pipelines'}
 ]
 
 const SkillBox = ({image,title,description}) =>(

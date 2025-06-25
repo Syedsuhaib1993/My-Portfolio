@@ -21,7 +21,7 @@ const AnimatedDivs = () => {
   }, [divs.length]);
 
   return (
-    <div className="flex justify-center items-center h-screen">
+    <div className='relative -z-0 min-h-screen overflow-hidden flex flex-col items-center justify-center text-white px-4 py-10 pb-[500px] md:pb-0'>
       <div className="relative w-full min-h-screen">
         {divs.map((div, index) => (
           <div
