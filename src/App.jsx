@@ -3,10 +3,10 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Body from './components/Body';
 import About from './components/About';
-import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import AnimatedDivs from './components/AnimatedDivs';
 function App() {
  useEffect(()=>{
   AOS.init({
@@ -18,7 +18,7 @@ function App() {
     <main className='bg-gray-950'>
       <Body/>
       <About/>
-      <Skills/>
+      <AnimatedDivs/>
       <Projects/>
       <Contact/>
       <Footer/>
