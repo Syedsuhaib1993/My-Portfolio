@@ -1,9 +1,28 @@
 import React from 'react'
 import imghero from '/imghero.png'
+import { FaWhatsapp } from "react-icons/fa";
 const Contact = () => {
+     const phoneNumber = "92302521009"; // 👈 Your WhatsApp number in international format (without +)
   return (
    <section data-aos="fade-up" data-aos-delay="300" id="contact"
    className='min-h-screen overflow-hidden justify-center flex items-center p-6 mt-10 relative'>
+        <a
+      href={`https://wa.me/${phoneNumber}`}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="fixed bottom-6 right-6 group"
+    >
+      {/* Tooltip */}
+      <div 
+      className="absolute  right-14 bottom-1/2 translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity bg-gray-800 text-white text-sm rounded px-4 py-1">
+        Chat with me!
+      </div>
+
+      {/* Fancy Button */}
+      <div className="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition transform hover:scale-110 hover:shadow-xl ">
+        <FaWhatsapp className="w-6 h-6" />
+      </div>
+    </a>
         <article className='shadow-lg rounded-lg flex flex-col md:flex-row max-w-4xl w-full relative'>
             <aside className='w-full md:w-1/2 relative'>
                 <div className='absolute z-0 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[300px]
