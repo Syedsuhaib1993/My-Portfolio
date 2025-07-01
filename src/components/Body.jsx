@@ -5,7 +5,7 @@ import facebook from '/facebook.png'
 import github from '/github.png'
 import instagram from '/instagram.png'
 import linkedin from '/linkedin.png'
-import Suhaib from '/Suhaib-Cv.pdf'
+import Suhaib from '../assets/Suhaib.pdf'
 import AnimatedText from "./AnimatedText";
 import Typewriter from "./Typewriter";
 
