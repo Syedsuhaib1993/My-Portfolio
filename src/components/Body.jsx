@@ -5,7 +5,7 @@ import facebook from '/facebook.png'
 import github from '/github.png'
 import instagram from '/instagram.png'
 import linkedin from '/linkedin.png'
-import Suhaib from '/Suhaib.pdf'
+import Suhaib from '/Suhaib-Cv.pdf'
 import AnimatedText from "./AnimatedText";
 import Typewriter from "./Typewriter";
 
@@ -41,16 +41,16 @@ const Body = () => {
           </p>
          
           <div className="flex items-center space-x-4 mb-6">
-              <a href="https://chatgpt.com/c/6836b806-bc6c-8009-91b3-833559d98ed1">
+              <a href="https://www.linkedin.com/in/suhaib-syed-591a96356/" target="_blank">
                 <img src={linkedin} alt="linkedin" className="w-11 h-11"/>
               </a>
-              <a href="#">
+              <a href="https://github.com/Syedsuhaib1993" target="_blank">
                 <img src={github} alt="github" className="w-11 h-11"/>
               </a>
-              <a href="#">
+              <a href="https://www.facebook.com/syedsuhaibali.suhaib" target="_blank">
                 <img src={facebook} alt="facebook" className="w-11 h-11"/>
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/syedsuhaibali/" target="_blank">
                 <img src={instagram} alt="instagram" className="w-11 h-11"/>
               </a>
           </div>
@@ -61,7 +61,7 @@ const Body = () => {
             </button>
           </a>
         </section>
-        <figure data-aos='fade-up' data-aos-delay='500' className="flex-1 flex justify-center md:justify-end mt-0" >
+        <figure data-aos='fade-up' data-aos-delay='2000' className="flex-1 flex justify-center md:justify-end mt-0" >
           <img src={imghero} alt="Hero Image" 
           className="h-[300px] sm:h-[400px] md:h-[485px] w-[250px] sm:w-[480px] object-cover rounded-lg"/>
         </figure>
